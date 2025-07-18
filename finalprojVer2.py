@@ -185,20 +185,3 @@ if user_income.lower() == "yes":
         plt.legend(title='Year')
         plt.tight_layout()
         plt.show()
-
-
-
-#analysis
-'''
-The purpose of this code is to analyze COVID-19 death counts in New York City by borough and year to find a corralation between income and death counts.
-From the graph we can generalize that Brooklyn and Queens have the highest death counts with Brooklyn being the fourth ranked borough in terms of income
-and Queens being the third. As for the Bronx, it maybe viewed as an outlier, its low death counts can be attributed to its population levels being the second to last
-only behind Staten Island. This makes it so that its death count is viewed not from an economic lens but from a population one, so the Bronx's average income plays little
-to no effects when it comes to its effect on the Bronx's death count number. Manhattan and Staten Island abides by our hypothesis that the higher the income; 
-the lower the death count. Furthermore, with the fact that almost all of the hosptials are located in Manhattan, it is no surprise that the borough with 
-the most amount of hospitals has the lowest death count. Staten Island, on the other hand, falls into a catagory similar the Bronx, where its low population 
-levels skews the death count number to be lower than the other boroughs. In conclusion, the data and subsequent analysis shows that there is a 
-correlation between income and death counts, but it would be an oversimplification to say that income is the only factor at play. As mentioned prior, 
-the Bronx and Staten Island's death count is a reflection not of income but of population. Additionally, one cannot deny that Manhattan has the greatest 
-acceccibility when it comes to healthcare. 
-'''
